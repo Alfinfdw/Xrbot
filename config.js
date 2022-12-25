@@ -38,42 +38,42 @@ const readMore = more.repeat(4001)
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ NO OWNER ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.owner = [
-['4915256954581', 'NiluhChan', true],
-['4915256954581', 'NiluhChan', true],
-['6285852939370', 'NiluhChan', true] // Jangan Du Hapus Nanti eror 
+['6285608468994', 'NiluhChan', true],
+['6285608468994', 'NiluhChan', true],
+['6285608468994', 'NiluhChan', true] // Jangan Du Hapus Nanti eror 
 ]
 global.mods = []
 global.prems = []
-global.nomorbot = '6285852939370'
-global.nomorown = '4915256954581'
-global.nomorown1 = '4915256954581'
-global.nomorown2 = '4915256954581'
+global.nomorbot = '6285608468994'
+global.nomorown = '6285608468994'
+global.nomorown1 = '6285608468994'
+global.nomorown2 = '6285608468994'
 global.nomorwa = '0'
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ WM ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.readMore = readMore
-global.author = 'NiluhChan'
-global.namebot = 'NiluhChan'
-global.wm = '© NiluhChan'
+global.author = 'galaubot'
+global.namebot = 'Botgalau'
+global.wm = '© galaubot'
 global.media = 'https://telegra.ph/file/5d45a3d1e12726d98c5e4.jpg'
-global.wm = 'NiluhChan '
+global.wm = 'galau '
 global.watermark = wm
-global.wm2 = 'NiluhChan '
+global.wm2 = 'galau '
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `T I M E : ${wktuwib}`
-global.titlebot = `NiluhChan`
-global.stickpack = 'NiluhChan'
-global.stickauth = `© NiluhChan`
+global.titlebot = `Botgalau`
+global.stickpack = 'Botgalau'
+global.stickauth = `© Botgalau`
 global.week = `${week} ${date}`
 global.wibb = `${wktuwib}`
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ OWNER INFO ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.nameown1= 'NiluhChan'
-global.nameown2 = 'NiluhChan'
+global.nameown1= 'Botgalau'
+global.nameown2 = 'Botgalau'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA LINK ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.Linkgc = 'Bentar'
-global.lynk = 'NiluhChan'
+global.lynk = 'Botgalau'
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA SOSSIAL ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
@@ -84,11 +84,11 @@ global.sdc = '-' //discord
 global.snh = 'https://youtube.com/channel/--'
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ DONASI ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.pdana = '6285852939370'
+global.pdana = '6285608468994'
 global.povo = '-'
-global.pgopay = '4915256954581'
+global.pgopay = '6285608468994'
 global.plinkaja = '-' //link aja
-global.ppulsa = '4915256954581'
+global.ppulsa = '6285608468994'
 global.ppulsa2 = '-'
 global.psaweria = '-'
 
