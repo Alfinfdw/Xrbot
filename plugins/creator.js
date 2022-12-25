@@ -5,13 +5,13 @@ let pp = await conn.profilePictureUrl(who).catch(_ => hwaifu.getRandom())
 let name = await conn.getName(who)
 
 if (command == 'owner') {
- let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:WhatsApp;niluh\nNICKNAME:Owner\nORG:Niluh\nTITLE:soft\nitem1.TEL;waid=4915256954581:+49 1525-6954-581\nitem1.X-ABLabel:📞 Nomor\nitem2.URL:https://github.com/AbiDev11\nitem2.X-ABLabel:More\nitem3.EMAIL;type=INTERNET: abiputrapratama34@gmail.com\nitem3.X-ABLabel:Gmail\nitem4.ADR:;;Indonesia;;;;\nitem4.X-ABADR:More\nitem4.X-ABLabel:Lokasi\nBDAY;value=date:13 January 2001\nEND:VCARD`
+ let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:WhatsApp;niluh\nNICKNAME:Owner\nORG:gatau\nTITLE:soft\nitem1.TEL;waid=6285608648994:+62 8560-8648-994\nitem1.X-ABLabel:📞 Nomor\nitem2.URL:https://github.com/AbiDev11\nitem2.X-ABLabel:More\nitem3.EMAIL;type=INTERNET: abiputrapratama34@gmail.com\nitem3.X-ABLabel:Gmail\nitem4.ADR:;;Indonesia;;;;\nitem4.X-ABADR:More\nitem4.X-ABLabel:Lokasi\nBDAY;value=date:13 January 2001\nEND:VCARD`
 const tag_own = await conn.sendMessage(m.chat, { contacts: { displayName: wm, contacts: [{ vcard }] }}, { quoted: fkontak })
 let caption = `👋 Hai *${name} @${who.split("@")[0]}*, Nih Owner Saya kak`
     await conn.sendButton(m.chat, caption, author, null, [['🎀 Sapa Owner', 'Huuu']], m, { quoted: fkontak, mentions: conn.parseMention(caption) })
 }
 if (command == 'pengembang') {
-  let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;${author};;;\nFN:${author}\nORG:${author}\nTITLE:\nitem1.TEL;waid=4915256954581:+49 1525-6954-581\nitem1.X-ABLabel:${author}\nX-WA-BIZ-DESCRIPTION:${htjava} Nih pengembang ku kack yg mengaktifkan aq.\nX-WA-BIZ-NAME:${author}\nEND:VCARD`
+  let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;${author};;;\nFN:${author}\nORG:${author}\nTITLE:\nitem1.TEL;waid=6285608648994:+62 8560-8648-994\nitem1.X-ABLabel:${author}\nX-WA-BIZ-DESCRIPTION:${htjava} Nih pengembang ku kack yg mengaktifkan aq.\nX-WA-BIZ-NAME:${author}\nEND:VCARD`
 await conn.sendMessage(m.chat, { contacts: { displayName: wm, contacts: [{ vcard }] }}, { quoted: fkontak })
 }
 if (command == 'creator') {
