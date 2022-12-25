@@ -38,9 +38,9 @@ const readMore = more.repeat(4001)
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ NO OWNER ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.owner = [
-['6285608468994', 'NiluhChan', true],
-['6285608468994', 'NiluhChan', true],
-['6285608468994', 'NiluhChan', true] // Jangan Du Hapus Nanti eror 
+['6285608468994', Gatau', true],
+['6285608468994', 'Gatau', true],
+['6285608468994', 'Gatau', true] // Jangan Du Hapus Nanti eror 
 ]
 global.mods = []
 global.prems = []
