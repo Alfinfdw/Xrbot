@@ -4,8 +4,8 @@ let handler  = async (m, { conn, usedPrefix }) => {
 let pp = 'https://telegra.ph/file/fe3be2032a54c7b9b29a3.jpg'
 let but1 = '𝐎𝐖𝐍𝐄𝐑'
 let bit = usedPrefix + 'owner'
-let donasi = `⮕ 𝐆𝗼𝐩𝐚𝐲 = [085608468994]
-⮕ 𝐃𝐚𝐧𝐚 = [085608468994]
+let donasi = `⮕ 𝐆𝗼𝐩𝐚𝐲 = [6285608468994]
+⮕ 𝐃𝐚𝐧𝐚 = [6285608468994]
 ⮕ 𝐒𝐚𝐰𝐞𝐫𝐢𝐚 = [https://saweria.co/gatau]
 *Atau Scan Qr Di Atas Untuk All Payment*
 
